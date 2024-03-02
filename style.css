@@ -449,27 +449,40 @@ body {
     color: rgb(168, 126, 20);
 }
 
-#newsletter .form{
+#newsletter .form {
     display: flex;
     width: 30%;
 }
 
-#newsletter input{
+#newsletter input {
     height: 3.125rem;
     padding: 0 1.25em;
     font-size: 15px;
     width: 100%;
     border: 1px solid transparent;
     border-radius: 4px;
-    border-top-right-radius: 0 ;
-    border-bottom-right-radius: 0 ;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     outline: none;
 }
 
-#newsletter button{
+#newsletter button {
     background-color: #088178;
     color: white;
     white-space: nowrap;
-    border-top-left-radius: 0 ;
-    border-bottom-left-radius: 0 ;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
